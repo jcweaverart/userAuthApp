@@ -1,0 +1,6 @@
+extends layout
+block content
+    h1 You are not allowed to this page. Please log in to continue.
+    h3 if you do not have an account, make one here: 
+    form(method="GET" action="/register")
+        button(type="submit") Register

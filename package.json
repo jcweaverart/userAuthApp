@@ -1,0 +1,30 @@
+{
+  "name": "userauthapp",
+  "version": "1.0.0",
+  "description": "A basic user authentication app in Node and Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcweaverart/userAuthApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcweaverart/userAuthApp/issues"
+  },
+  "homepage": "https://github.com/jcweaverart/userAuthApp#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mongoose": "^4.13.7",
+    "nodemon": "^1.12.7",
+    "pug": "^2.0.0-rc.4"
+  }
+}
